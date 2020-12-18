@@ -1,0 +1,26 @@
+<html>
+<head>
+<style type="text/css">
+#c {
+cursor:u<a href="https://www.example.com</a>
+	/new_cursor.png"),default;
+}
+#c input{
+cursor:u<a href="https://www.example.com">rl("http://localhost/basic_cursorjacking</a>
+	/new_cursor.png"),default;
+}
+</style>
+</head>
+<body>
+<h1>This is an example of CursorJacking.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Click on the 'b' or 'd' buttons. </h1>
+<div id="c">
+<input type="button" value="a" onclick="alert('clicked on a')">
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+<input type="button" value="b" onclick="alert('clicked on b')">
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;<br></br>
+<input type="button" value="c" onclick="alert('clicked on c')">
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+<input type="button" value="d" onclick="alert('clicked on d')">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+</div>
+</body>
+</html>
